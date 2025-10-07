@@ -1,5 +1,4 @@
 <div align="center">
-  <img src="assets/screenshots/chefcts_banner.png" width="90%" alt="Chef CTS Banner">
   <h1>🍳 Chef CTS</h1>
   <p><strong>LLM-powered culinary assistant built with FastAPI + Ollama (Llama 3.1 8B) + RAG</strong></p>
   <img src="https://img.shields.io/badge/Python-3.11+-blue.svg">
@@ -93,7 +92,7 @@ Try a tomato-cheese frittata! Sauté garlic + tomatoes, add whisked eggs, top wi
 Here’s a glimpse of **Chef CTS** in action:
 
 <div align="center">
-  <img src="assets/screenshots/chat_ui_demo.png" width="90%" alt="Chef CTS Chat Demo">
+  <img src="ChefBot/assets/screenshots/chat-ui-demo.png" width="90%" alt="Chef CTS Chat Demo">
   <p><em>Chef CTS suggesting recipes and fixing cooking disasters — all offline!</em></p>
 </div>
 
@@ -101,6 +100,7 @@ Here’s a glimpse of **Chef CTS** in action:
 
 ## Connect
 **Chethana T. Shantha Kumar**
+
 [chethana1681@gmail.com](mailto:chethana1681@gmail.com)  
 [LinkedIn](https://www.linkedin.com/in/chethanats/)  
 [Portfolio / Website](https://chethants.fyi)
