@@ -1,0 +1,10 @@
+[
+  {
+    "role": "user",
+    "content": "My curry is very salty. Could you help me fix it?"
+  },
+  {
+    "role": "assistant",
+    "content": "To reduce the saltiness of your soup, follow these steps quickly and effectively:\n\n1. Add a peeled raw potato cut into small pieces to absorb excess salt (about one large or two medium-sized). Let them simmer for about 10 minutes before removing them from the pot. The potatoes will have absorbed some of the salinity, and you can discard them afterward if desired.\n2. If a raw potato isn't available, add unsalted broth to dilute the saltiness without compromising flavor too much. Aim for about 1 cup (8 oz) or as needed until it tastes better. Remember not to double up on liquid if you already have some in your recipe; just supplement with additional water, unsalted broth, or a mix of both.\n3. Taste and adjust seasonings accordingly after adding the potato (or extra liquids), keeping an eye out for any remaining saltiness that may need addressing."
+  }
+]

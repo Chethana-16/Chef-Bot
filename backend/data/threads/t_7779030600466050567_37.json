@@ -1,0 +1,10 @@
+[
+  {
+    "role": "user",
+    "content": "My curry is too salty — what do I do?"
+  },
+  {
+    "role": "assistant",
+    "content": "1. Add a peeled raw potato or unsalted broth, simmer for about 10 minutes to absorb excess salt.\n2. Alternatively, squeeze in the juice of half a lemon and add more water if needed; this can help balance out the flavors without diluting them too much."
+  }
+]
