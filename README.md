@@ -92,7 +92,7 @@ Try a tomato-cheese frittata! Sauté garlic + tomatoes, add whisked eggs, top wi
 Here’s a glimpse of **Chef CTS** in action:
 
 <div align="center">
-  <img src="ChefBot/assets/screenshots/chat-ui-demo.png" width="90%" alt="Chef CTS Chat Demo">
+  <img src="ChefBot/assets/screenshots/chat-ui-demo.png" width="90%" >
   <p><em>Chef CTS suggesting recipes and fixing cooking disasters — all offline!</em></p>
 </div>
 
