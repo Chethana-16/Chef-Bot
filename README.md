@@ -71,10 +71,15 @@ Run python ingest.py anytime you update these files to rebuild the FAISS index.
 ---
 
 ## Core Features
+
 ✅ Offline LLM Inference (no API keys)
+
 ✅ Retrieval-Augmented Generation over custom recipes
+
 ✅ Conversation memory per thread (JSON-based)
+
 ✅ Friendly Chef persona system prompt
+
 ✅ Optional streaming for live token output
 
 ---
@@ -87,12 +92,12 @@ Try a tomato-cheese frittata! Sauté garlic + tomatoes, add whisked eggs, top wi
 
 ---
 
-## 💬 Live Demo
+## Live Demo
 
 Here’s a glimpse of **Chef CTS** in action:
 
 <div align="center">
-  <img src="ChefBot/assets/screenshots/chat-ui-demo.png" width="90%" >
+  <img src="ChefBot/assets/screenshots/chat-ui-demo.png" width="90%" alt="Chef CTS Chat Demo">
   <p><em>Chef CTS suggesting recipes and fixing cooking disasters — all offline!</em></p>
 </div>
 
