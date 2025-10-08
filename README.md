@@ -4,7 +4,6 @@
   <img src="https://img.shields.io/badge/Python-3.11+-blue.svg">
   <img src="https://img.shields.io/badge/FastAPI-0.115-brightgreen.svg">
   <img src="https://img.shields.io/badge/Ollama-Llama3.1 8B-orange.svg">
-  <img src="https://img.shields.io/badge/License-MIT-lightgrey.svg">
 </div>
 
 ---
