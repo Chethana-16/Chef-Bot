@@ -84,6 +84,32 @@ Run python ingest.py anytime you update these files to rebuild the FAISS index.
 
 ---
 
+## Model Benchmark & Comparison
+
+Chef CTS was evaluated across several open-source LLMs available through Ollama to find the ideal balance of speed, quality, and resource efficiency for local, offline performance.
+All tests were performed on a MacBook Air (M1, 16 GB RAM) with identical Chef CTS prompts.
+
+| Model Variant             | Size          | Avg. Response Time (sec) | RAM Usage (GB) | Output Quality (1–5) | Notes                                                                                          |
+| ------------------------- | ------------- | ------------------------ | -------------- | -------------------- | ---------------------------------------------------------------------------------------------- |
+| **Llama 2 7B**            | 7 B           | 37 s                     | ~6.5 GB        | ⭐⭐⭐                  | Solid reasoning but slower and less conversational; overkill for simple culinary queries.      |
+| **Mistral 7B**            | 7 B           | 31 s                     | ~7 GB          | ⭐⭐⭐⭐                 | Smooth language and better structure, but still heavy for local, real-time responses.          |
+| **Phi 3 Mini**            | 3.8 B         | **14 s**                 | **~3.2 GB**    | ⭐⭐⭐⭐                 | ⚡ Fastest model tested; small footprint, consistent culinary reasoning, ideal for laptop CPUs. |
+| **Llama 3 8B (Instruct)** | 8 B           | 25 s                     | ~7.8 GB        | ⭐⭐⭐⭐⭐                | High-quality text but double the response latency; too resource-intensive for daily use.       |
+| **Llama 3.1 8B (q4_K_M)** | 8 B quantized | 19 s                     | ~4 GB          | ⭐⭐⭐⭐                 | Faster than full 8B; excellent output but still heavier than Phi 3 Mini.                       |
+
+### Final Choice: Phi 3 Mini
+
+After iterative testing, Phi 3 Mini was selected as the production model for Chef CTS.
+It delivers near-Llama-3-level output quality while maintaining:
+
+✅ Sub-15 second average response time (on an M1 MacBook Air)
+
+✅ Low memory usage (~3 GB), suitable for lightweight local inference
+
+✅ Stable behavior with Ollama’s REST API
+
+---
+
 ## Example Conversation
 
 User: “What can I cook with tomatoes, eggs, and cheese?”
